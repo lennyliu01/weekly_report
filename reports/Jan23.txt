@@ -1,0 +1,32 @@
+上周和上周周从王卓老师的视频开始看起，目前看到了第三周的 single linked list.
+目前完成的章节有数据结构中的线型的： list, stack, queue
+自己动手写了用python写了一遍，基本概念搞明白了
+在学习中的是single linked list, 线性中的链式结构
+学习中的发现是其实链式的指针可以完成非链式的树和图形的结构，但是要看到后面才能区分线性和非线性的区别
+总结一下：arrayList VS LinkedList
+镜像列表 (ArrayList) 优点是：
+
+查询和修改元素的时间复杂度为 O(1)，因为元素在数组中连续存储，可以直接访问
+支持随机访问
+镜像列表的缺点是：
+
+插入和删除元素时间复杂度较高，为 O(n)，因为需要移动数组中的其他元素。
+当镜像列表容量不足时，需要重新分配内存和拷贝元素，开销比较大。
+链式列表 (LinkedList) 优点是：
+
+插入和删除元素的时间复杂度为 O(1)，因为只需要修改指针。
+不需要考虑容量问题，适合动态增长。
+链式列表的缺点是：
+
+查询和修改元素时间复杂度为 O(n)，因为需要遍历链表才能找到目标元素。
+不支持随机访问。
+总的来说，镜像列表更适合需要频繁随机访问元素，而链式列表更适合需要频繁插入和删除元素的场景。
+
+没学完linked_list 就开始自己尝试写insert了，自己写完以后发现，概念掌握了，就是有时候忘记调指针
+自己写了一个insert，对比chatgpt写的，就是错在循环的时候忘了 p = p.next了
+我写的：https://github.com/lennyliu01/leetcode/blob/master/data_structure/linear/single_linked_list.py
+AI写的：https://github.com/lennyliu01/leetcode/blob/master/chatgpt/linear/single_linked_list.py
+
+做代码检查的时候发现stack的写法是错的，这周要改一下，最后插入的应该放在队列的最前端
+
+发现自己不会写unit test, chatgpt很好用
