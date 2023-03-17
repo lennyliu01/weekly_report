@@ -1,0 +1,19 @@
+间断了2周的report重新恢复了
+目前的进度到了第112讲图形的存储结构
+从2月底到现在花了不少时间在树和二叉树上
+基本明白了主要的树的操作还有三种不同的遍历方式
+Inorder traversal:
+left --> root --> right
+Preorder traversal:
+root --> left -->right
+Postorder traversal:
+left  --> right --> root
+好奇什么能学到DFS 和 BFS？
+哈夫曼树也很有意思，自己试着写了一下huffman 编码
+先做一个哈夫曼树：
+构造森林都是根
+选择两小造新根
+删除两小舔新人
+重复2，3省新根
+好想leetcode很多题都可以用二叉树或者哈夫曼二叉树来解决
+面试的期限大概出来了，应该是6月开始，目测我还有3个月准备，我想要尽快开始刷题了
