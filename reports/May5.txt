@@ -1,0 +1,12 @@
+好久没有更新了
+最近有做题主要是做的是递归的题
+自己先后写了fibonacci, factorial，coin_change
+就是按照书上的顺序一点一点做，感觉对递归的理解比以前好了
+应该是用普通递归写出来就能用记忆的方法解题了，有的题用动态不是很好理解，递归还是比较直观的
+按老师要求试着做了3道题，2道难的题基本没有思路
+最后的一道word break 一开始用贪婪算法基本算出来了，但是后来发现贪婪算法有问题
+在"aaaaaaa", ["aaaa","aaa"] 是无解的
+后来还是老老实实用的递归
+https://github.com/lennyliu01/leetcode/blob/master/practices/recursion/word_break/brutal_force.py
+目前所有递归的题的解法都在这里：
+https://github.com/lennyliu01/leetcode/tree/master/practices/recursion
